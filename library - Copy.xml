@@ -1,33 +1,32 @@
 <?xml version="1.0"?>
-<!DOCTYPE library SYSTEM "library.dtd">
-<library>
-    <location>location</location>
-    <description>desc</description>
-    <librarian>ahmed</librarian>
-    <books>
-        <book>
-            <title>book1</title>
-            <ISBN>123</ISBN>
-            <author>ahmed</author>
-            <preface>abcd</preface>
-            <parts>
-                <part title="book1">
-                    <chapter title="ch1">
-                        <summary>abc</summary>
-                        <sections>
-                            <section>
-                                <p>a</p>
-                            </section>
-                            <section>
+<library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="library.xsd">
+	<location>location</location>
+	<description>desc</description>
+	<librarian>ahmed</librarian>
+	<books>
+		<book>
+			<title>book1</title>
+			<ISBN>123</ISBN>
+			<author>ahmed</author>
+			<preface>abcd</preface>
+			<parts>
+				<part title="book1">
+					<chapter title="ch1">
+						<summary>abc</summary>
+						<sections>
+							<section>
+								<p>a</p>
+							</section>
+							<section>
 								<p>b</p>
-                            </section>
-                            <section>
-								<p>c</p>                            
-                            </section>
-                        </sections>
-                    </chapter>
-                </part>
-            </parts>
-        </book>
-    </books>
+							</section>
+							<section>
+								<p>c</p>
+							</section>
+						</sections>
+					</chapter>
+				</part>
+			</parts>
+		</book>
+	</books>
 </library>
