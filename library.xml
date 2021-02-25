@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE library SYSTEM "library.dtd">
+<library>
+    <location></location>
+    <description></description>
+    <librarian></librarian>
+    <books>
+        <book>
+            <title></title>
+            <ISBN></ISBN>
+            <author></author>
+            <preface></preface>
+            <parts>
+                <part title="">
+                    <chapter title="">
+                        <summary></summary>
+                        <sections>
+                            <section>
+                                <p></p>
+                            </section>
+                            <section>
+								<p></p>
+                            </section>
+                            <section>
+								<p></p>                            
+                            </section>
+                        </sections>
+                    </chapter>
+                </part>
+            </parts>
+        </book>
+    </books>
+</library>

@@ -1,0 +1,52 @@
+list
+{
+    background-color: #28527a;
+    width: 90%;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+employee
+{
+    display: block;
+    margin-bottom: 32pt;
+    margin-left: 10pt;
+}
+
+name
+{
+    color: #fbeeac;
+    font-size: 26px;
+    display: block;
+    text-transform: capitalize;
+}
+
+phones
+{
+    color: #f4d160;
+    font-size: 20px;
+}
+
+phone
+{
+    margin-left: 10px;
+}
+
+addresses
+{
+    display: block;
+    color: #8ac4d0;
+    font-size: 20px;
+}
+
+street, buildingNumber, region, city, country
+{
+    margin-left: 10px;
+}
+
+e-mail
+{
+    display: block;
+    color: #fbeeac;
+    font-size: 18px;
+}

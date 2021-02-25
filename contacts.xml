@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!DOCTYPE list SYSTEM "contacts.dtd">
+<?xml-stylesheet type="text/css" href="contacts.css"?>
+<list>
+    <employee>
+        <name>ahmed samir</name>
+        <phones>
+            <phone type="home">035000000</phone>
+            <phone type="work">03123456</phone>
+            <phone type="mobile">01111111111</phone>
+        </phones>
+        <addresses>
+            <address>
+                <street>abcd</street>
+                <buildingNumber>10</buildingNumber>
+                <region>A</region>
+                <city>Alex</city>
+                <country>Egypt</country>
+            </address>
+        </addresses>
+        <e-mail>abcd@test.com</e-mail>
+    </employee>
+
+    <employee>
+        <name>ali mohamed</name>
+        <phones>
+            <phone type="home">02123456</phone>
+            <phone type="work">0212345678</phone>
+            <phone type="mobile">0111111111</phone>
+        </phones>
+        <addresses>
+            <address>
+                <street>abcde</street>
+                <buildingNumber>15</buildingNumber>
+                <region>B</region>
+                <city>Cairo</city>
+                <country>Egypt</country>
+            </address>
+        </addresses>
+        <e-mail>test@test.com</e-mail>
+    </employee>
+</list>

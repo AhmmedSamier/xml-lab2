@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT library (location,description,librarian,books)>
+<!ELEMENT books (book*)>
+<!ELEMENT book (title,ISBN,author,preface,parts)>
+<!ELEMENT parts (part+)>
+<!ELEMENT part (chapter+)>
+<!ELEMENT chapter (summary,sections)>
+<!ELEMENT sections (section+)>
+<!ELEMENT section (p+)>
+
+<!ELEMENT location (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT librarian (#PCDATA)>
+
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT preface (#PCDATA)>
+
+<!ELEMENT summary (#PCDATA)>
+<!ELEMENT p (#PCDATA)>
+
+<!ATTLIST part title CDATA #REQUIRED>
+<!ATTLIST chapter title CDATA #REQUIRED>
